@@ -1,0 +1,20 @@
+{
+  "name": "campusiq-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "npm run dev --workspace=@campusiq/backend",
+    "dev:frontend": "npm run dev --workspace=@campusiq/frontend",
+    "build": "npm run build --workspaces",
+    "build:backend": "npm run build --workspace=@campusiq/backend",
+    "build:frontend": "npm run build --workspace=@campusiq/frontend",
+    "install:all": "npm install && npm install --workspaces"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
