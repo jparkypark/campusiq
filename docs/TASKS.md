@@ -14,16 +14,16 @@ Build a monorepo application that integrates data from NewsAPI, OpenWeatherMap, 
 
 ## Phase 1: Monorepo Setup & Structure
 
-- [ ] **Task 1.1**: Initialize monorepo with workspace structure (`packages/backend`, `packages/frontend`)
-- [ ] **Task 1.2**: Set up Node.js/TypeScript backend with Express.js
-- [ ] **Task 1.3**: Set up React frontend with TypeScript and Vite
-- [ ] **Task 1.4**: Configure shared package.json with workspaces and common dependencies
-- [ ] **Task 1.5**: Set up development scripts for concurrent backend/frontend development
-- [ ] **Task 1.6**: Configure TypeScript configs for both packages
+- [x] **Task 1.1**: Initialize monorepo with workspace structure (`packages/backend`, `packages/frontend`)
+- [x] **Task 1.2**: Set up Node.js/TypeScript backend with Express.js
+- [x] **Task 1.3**: Set up React frontend with TypeScript and Vite
+- [x] **Task 1.4**: Configure shared package.json with workspaces and common dependencies
+- [x] **Task 1.5**: Set up development scripts for concurrent backend/frontend development
+- [x] **Task 1.6**: Configure TypeScript configs for both packages
 
 ## Phase 2: Backend API Development
 
-- [ ] **Task 2.1**: Set up SQLite database with better-sqlite3 and schema creation
+- [x] **Task 2.1**: Set up SQLite database with better-sqlite3 and schema creation
 - [ ] **Task 2.2**: Create TypeScript models/interfaces for News, Weather, Stocks
 - [ ] **Task 2.3**: Implement NewsAPI service with axios/fetch
 - [ ] **Task 2.4**: Implement OpenWeatherMap service integration
